@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parallax</title>
+    <link rel="stylesheet" href="m.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Kenia&family=Nova+Script&family=Sofadi+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+
+    <div class="contenedor">
+        <!-- header -->
+		<header>
+			<div class="logo">
+				<h1>Chamo Col</h1>
+				<p>Desarrollador Web</p>
+			</div>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Busca lo que necesites">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Naturaleza</a>
+				<a href="#">Ciudades</a>
+				<a href="#">Personas</a>
+                <a href="#">Animales</a>
+				<a href="#">paisajes</a>
+			</div>
+        </header>
+        <!-- end of header -->
+
+        <!-- section -->
+		<section class="grid" id="grid">
+			<div class="item" 
+				 data-categoria="ciudades"
+				 data-etiquetas="ciudades autos carros calles"
+				 data-descripcion="1.- Lorem ipsum dolor sit amet consectetur.">
+				<div class="item-contenido">
+					<img src="https://cnnespanol.cnn.com/wp-content/uploads/2019/03/http___cdn.cnn_.com_cnnnext_dam_assets_190312180104-time-out-most-exciting-city-2019-ny-credit-micha-ludwiczak-1-super-tease.jpg?quality=100&strip=info" alt="">
+				</div>
+			</div>
+            <!-- personas -->
+			<div class="item"
+				 data-categoria="personas"
+				 data-etiquetas="personas mujeres"
+				 data-descripcion="2.- Lorem ipsum dolor sit amet consectetur.">
+				<div class="item-contenido">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmh2GPhNqeKIKlikBjijyMmCFMGclpQ5D9mQ&usqp=CAU" alt="">
+				</div>
+            </div>
+            <!-- personas -->
+			<div class="item"
+            data-categoria="personas"
+            data-etiquetas="personas mujeres"
+            data-descripcion="6.- Lorem ipsum dolor sit amet consectetur.">
+           <div class="item-contenido">
+               <img src="https://image.freepik.com/vector-gratis/icono-hombre-persona-pensando_24877-40527.jpg" alt="">
+           </div>
+       </div>
+            <!-- paisajes -->
+			<div class="item"
+				 data-categoria="paisajes"
+				 data-etiquetas="paisajes montañas mar playas"
+				 data-descripcion="3.- Lorem ipsum dolor sit amet consectetur.">
+				<div class="item-contenido">
+					<img src="https://www.esdesignbarcelona.com/sites/default/files/paisaje-urbano-que-es-y-principales-caracteristicas-1.jpg" alt="">
+				</div>
+            </div>
+            <!-- paisajes -->
+			<div class="item"
+            data-categoria="paisajes"
+            data-etiquetas="paisajes montañas niebla"
+            data-descripcion="7.- Lorem ipsum dolor sit amet consectetur.">
+           <div class="item-contenido">
+               <img src="https://www.dzoom.org.es/wp-content/uploads/2017/07/seebensee-2384369-810x540.jpg" alt="">
+           </div>
+       </div>
+            <!-- animales -->
+			<div class="item"
+				 data-categoria="animales"
+				 data-etiquetas="animales leones"
+				 data-descripcion="4.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="https://static.iris.net.co/semana/upload/images/2020/6/12/679093_1.jpg" alt="">
+				</div>
+			</div>
+            <!-- animales -->
+			<div class="item" data-categoria="animales"
+				 data-etiquetas="animales pandas"
+				 data-descripcion="5.- Lorem ipsum dolor sit amet consectetur.">
+				<div class="item-contenido">
+					<img src="https://estaticos.muyinteresante.es/media/cache/1000x460_thumb/uploads/images/test/5b03cec65bafe89b7048a6ff/animal-slide_0.jpg" alt="">
+				</div>
+			</div>
+            <!-- ciudades -->
+			<div class="item" 
+				 data-categoria="ciudades"
+				 data-etiquetas="ciudades paisajes carreteras"
+                 data-descripcion="8.- Lorem ipsum dolor sit amet consectetur.">
+				<div class="item-contenido">
+					<img src="https://www.guatemala.com/fotos/2019/09/Ciudad-mas-eficiente-en-costos-Guatemala-2019-1.jpg" alt="">
+				</div>
+			</div>
+            <!-- naturaleza -->
+			<div class="item"
+				 data-categoria="naturaleza"
+				 data-etiquetas="naturaleza hojas plantas"
+				 data-descripcion="9.- Lorem ipsum dolor sit amet consectetur.">
+				<div class="item-contenido">
+					<img src="https://okdiario.com/img/2017/05/25/los-lugares-mas-coloridos-de-la-naturaleza-terrestre-655x368.jpg" alt="">
+				</div>
+            </div>
+            
+			<div class="item"
+				 data-categoria="naturaleza"
+				 data-etiquetas="naturaleza hojas plantas"
+				 data-descripcion="9.- Lorem ipsum dolor sit amet consectetur.">
+				<div class="item-contenido">
+					<img src="https://www.ambientum.com/wp-content/uploads/2018/03/conservacion-naturaleza-6-696x464.jpg" alt="">
+				</div>
+			</div>
+		</section>
+                <!-- end of section -->
+
+                <!-- footer -->
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">    
+				<button id="btn-cerrar-popup"><i class="bx bx-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+		<footer class="contenedor">
+            <!-- redes sociales -->
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="http://www.twitter.com/ChamoProgrammer" target="_blank" class="twitter">
+						<i class="bx bxl-twitter"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="http://www.facebook.com/ChamoProgrammer" target="_blank" class="facebook">
+						<i class="bx bxl-facebook"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="http://www.instagram.com" target="_blank" class="instagram">
+						<i class="bx bxl-instagram"></i>
+					</a>
+				</div>
+            </div>
+            <!--end of redes sociales -->
+			<div class="creado-por">
+				<p>Sitio diseñado por <a href="#"> Chamo Col</a> - <a href="https://www.ChamoProgrammer.com">ChamoProgrammer</a></p>
+			</div>
+        </footer>
+        <!-- end of footer -->
+    </div>
+    
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    
+
+    <script src="m.js"></script>
+</body>
+</html>

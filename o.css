@@ -1,0 +1,203 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body    {
+    background: #0002;
+}
+
+.nav   {
+    background-image: url(https://images.megapixl.com/2139/21399482.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+.header   {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 22px;
+}
+
+.img-card   {
+    width: 10%;
+    margin-left: -8%;
+    border-radius: 3px;
+}
+
+ul  {
+    display: flex;
+    flex-direction: row;
+}
+
+li  {
+    margin:  0 22px;
+    color: #ffd5d5;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s;
+}
+li:hover     {
+    color: #2f2f8d;
+}
+.border  {
+    border: 1px solid #9d9cb6;
+    margin-top: 15px;
+}
+
+.header2   {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    position: relative;
+    left: 20%;
+    top: 8%;
+}
+
+.span   {
+    font-weight: bold;
+}
+h1    {
+    font-size: 68px;
+    text-transform: uppercase;
+    color: #ffd5d5;
+    font-weight: 200;
+}
+
+.paragraph   {
+    color: #fff;
+    font-size: 20px;
+}
+button  {
+    font-size: 33px;
+    padding: 5px;
+    background: transparent;
+    color: #ffd5d5;
+    margin: 30px 15px;
+    text-transform: capitalize;
+    border-radius: 8px;
+    transition: .3s;
+}
+button:hover   {
+    background: #000;
+    color: #fff;
+}
+
+/* main */
+main      {
+    margin: 4%;
+    display: flex;
+    flex-direction: row;
+}
+
+ .div  {
+    background: url(https://hubsports.mx/wp-content/uploads/2017/10/lesiones-comunes-ciclistas.jpg);
+   width: 100%;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-attachment: fixed;
+}
+
+.container1  {
+    background: #cecece;
+    margin: 0 0 0 3%;
+}
+
+h2 {
+    color: #000000;
+    background: #79f6ff;
+    text-align: center;
+    font-size: 45px;
+    margin: 50px;
+    padding: 2px;
+    font-family: 'Graduate', cursive;
+}
+
+.container1 > .p {
+    color: #000000;
+    font-family: 'Galada', cursive;
+    margin: 50px;
+}
+
+.container1 > .paragraph1   {
+    font-size: 23px;
+}
+
+.div1  .p   {
+    font-size: 25px;
+    margin: 0 35%;
+    color: #008594;
+    transition: .3s;
+}
+
+.div1 > .p:hover  {
+    color: #000;
+    font-size: 29px;
+}
+
+
+.div1  i  {
+    font-size: 42px;
+    padding-top: 12px; 
+}
+/* --------------------------------------------------------------- */
+ .div3 {
+   background: url(https://lh3.googleusercontent.com/proxy/2hPI51X7FHX92pOaJ_V83gxnzmWG9wKpzVrdv2nQNZXMAdsqGSfDq8x2YWewfck7iwjt9VQpkEWQxG0fwulncdtBVX_OqqPAfZ_Uhhtm8hrGhIkbl6_pLYi2vftRbtyqwPbBMhzN6TOxqbukGD-hGwI0UApNXRkMGKYV5w);
+   width: 100%;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-attachment: fixed;
+}
+
+.container12  {
+    background: #cecece;
+    margin: 0 0 0 3%;
+}
+
+h2 {
+    color: #000000;
+    background: #79f6ff;
+    text-align: center;
+    font-size: 45px;
+    margin: 50px;
+    padding: 2px;
+    font-family: 'Graduate', cursive;
+}
+
+.container1 > .p1 {
+    color: #000000;
+    font-family: 'Galada', cursive;
+    margin: 50px;
+}
+
+.container1 > .paragraph12   {
+    font-size: 23px;
+}
+
+.div1  .p2   {
+    font-size: 25px;
+    margin: 0 35%;
+    color: #008594;
+    transition: .3s;
+}
+
+.div1 > .p2:hover  {
+    color: #000;
+    font-size: 29px;
+}
+
+.div12  i  {
+    font-size: 42px;
+    padding-top: 12px; 
+}

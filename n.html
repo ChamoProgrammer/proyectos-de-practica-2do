@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elige un numero del 1 al 10</title>
+    <link rel="stylesheet" href="n.css">
+    <!-- fonts.google.com -->
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Lemonada:wght@600&family=Shrikhand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>adivina el número</h1>
+    <p>Intenta adivinar un número aleatorio entre 1 y 100.</p>
+    <p>tienes 10 intentos para adivinar el número correcto.</p>
+    </br>
+    <div id="wrapper">
+        <form class="form">
+            <label for="guessField" id="guess">Adivina un numero</label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
+        </form>
+
+        <div class="resultParas">
+            <p class="p">Adivinaciones anteriores: <span class="guesses"></span></p>
+            <p class="p">Conjeturas restantes: <span class="lastResult">10</span></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+
+    <script src="n.js"></script>
+
+
+</body>
+</html>
